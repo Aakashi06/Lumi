@@ -1,0 +1,26 @@
+{
+  "pipeline": "pipeline-v3-llm-neo4j",
+  "measurement": "Previously recorded application jobs; no benchmark executed for this request. In-progress elapsed time is not a completed-document benchmark. Stage timings and memory were not recorded.",
+  "records": [
+    {
+      "document": "Google Guide AI Agents.pdf",
+      "content_hash": "248d85b097b2896e82940420515d1d6f924327b1ec96c48d227ab61eb8159af6",
+      "stage": "extracting concepts",
+      "observed_elapsed_seconds": 1472.18,
+      "summary": {
+        "chunks": 88,
+        "indexed_chunks": 88,
+        "pages": 64,
+        "embedded_chunks": 2,
+        "graph_chunks": 23,
+        "new_concepts": 87,
+        "new_connections": 79,
+        "crawl_limited": false,
+        "failed_pages": 0,
+        "graph_target_chunks": 32,
+        "embedding_warning": "Semantic indexing unavailable. Keyword search and the knowledge graph are ready."
+      },
+      "peak_rss_mb": null
+    }
+  ]
+}

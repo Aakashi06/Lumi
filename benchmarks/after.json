@@ -1,0 +1,793 @@
+{
+  "pipeline": "pipeline-v4.1-local-nlp",
+  "reports": [
+    {
+      "document": "small.txt",
+      "content_hash": "992b33d39af928403f330fe14746fe3d1c9ba8b04d601c7efa67ecc4f081fafe",
+      "results": [
+        {
+          "id": "33bdd706-3cf4-4bbb-bb99-682a2396abbb",
+          "source_id": "b7a5e157-bdc2-404a-957b-ee4a296a1c9b",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 1.158,
+              "chunking": 0.139,
+              "entity_extraction": 73.204,
+              "relationship_extraction": 2.786,
+              "embedding_generation": 0.0,
+              "graph_construction": 130.944,
+              "serialization": 2.935,
+              "nlp_model_load": 3372.212
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 1,
+            "cache_hits": 0,
+            "cache_misses": 1,
+            "new_concepts": 9,
+            "new_connections": 11,
+            "chunks": 1,
+            "indexed_chunks": 1,
+            "pages": 1,
+            "graph_target_chunks": 1,
+            "embedded_chunks": 0,
+            "document_cache_hit": false,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 3713.14
+          },
+          "elapsed_seconds": 3.72,
+          "mode": "cold",
+          "wall_seconds": 3.7212
+        },
+        {
+          "id": "43edda33-0dcf-45cf-bb1a-ab97a680d455",
+          "source_id": "e5dcbaa2-5b78-4551-ae09-cb2d4f5fe677",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.024,
+              "chunking": 0.134,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 107.764,
+              "serialization": 0.0,
+              "nlp_model_load": 0.12
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 1,
+            "cache_hits": 1,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 11,
+            "chunks": 1,
+            "indexed_chunks": 1,
+            "pages": 1,
+            "graph_target_chunks": 1,
+            "embedded_chunks": 0,
+            "document_cache_hit": true,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 125.111
+          },
+          "elapsed_seconds": 0.14,
+          "mode": "cached_upload",
+          "wall_seconds": 0.1445
+        },
+        {
+          "id": "f468180f-fc86-4a9a-9ada-595071a9156e",
+          "source_id": "e5dcbaa2-5b78-4551-ae09-cb2d4f5fe677",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.0,
+              "chunking": 0.0,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 0.0,
+              "serialization": 0.0,
+              "nlp_model_load": 5.895
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 0,
+            "cache_hits": 0,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 0,
+            "unchanged": true
+          },
+          "elapsed_seconds": 0.031,
+          "mode": "unchanged",
+          "wall_seconds": 0.0329
+        }
+      ],
+      "peak_rss_mb": 141.78,
+      "python_peak_mb": 51.01,
+      "graph_read_ms": 21.739,
+      "json_serialization_ms": 0.39279200063901953,
+      "visible_nodes": 9,
+      "total_nodes": 9,
+      "extraction_quality": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relationship_recall": 1.0,
+        "predicted_entities": [
+          "embeddings",
+          "networkx",
+          "python",
+          "retrieval",
+          "sqlite"
+        ],
+        "note": "Synthetic sanity check, not a representative real-document accuracy evaluation"
+      },
+      "memory_scope": "Peak across cold, cached upload and unchanged retry in one isolated process"
+    },
+    {
+      "document": "small.docx",
+      "content_hash": "c1240a5e50da2d9db5eaba9a7553c3e47500321d41b7c2ae08fd2fda01c3d3da",
+      "results": [
+        {
+          "id": "3b74ae6e-bcf4-4557-85ff-d923db831787",
+          "source_id": "5efdcb82-8d92-4699-979c-9897f22f2dc0",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 131.38,
+              "chunking": 0.151,
+              "entity_extraction": 91.12,
+              "relationship_extraction": 2.82,
+              "embedding_generation": 0.0,
+              "graph_construction": 156.691,
+              "serialization": 2.532,
+              "nlp_model_load": 1800.546
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 1,
+            "cache_hits": 0,
+            "cache_misses": 1,
+            "new_concepts": 9,
+            "new_connections": 11,
+            "chunks": 1,
+            "indexed_chunks": 1,
+            "pages": 1,
+            "graph_target_chunks": 1,
+            "embedded_chunks": 0,
+            "document_cache_hit": false,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 2241.698
+          },
+          "elapsed_seconds": 2.253,
+          "mode": "cold",
+          "wall_seconds": 2.2538
+        },
+        {
+          "id": "942df51a-73f2-4cf4-9ad8-4bc125f47d97",
+          "source_id": "e43b656c-e354-4582-8467-f54d7a3fe553",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.036,
+              "chunking": 0.134,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 132.741,
+              "serialization": 0.0,
+              "nlp_model_load": 0.139
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 1,
+            "cache_hits": 1,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 11,
+            "chunks": 1,
+            "indexed_chunks": 1,
+            "pages": 1,
+            "graph_target_chunks": 1,
+            "embedded_chunks": 0,
+            "document_cache_hit": true,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 150.698
+          },
+          "elapsed_seconds": 0.158,
+          "mode": "cached_upload",
+          "wall_seconds": 0.1588
+        },
+        {
+          "id": "7e0ac7fb-ca8f-487c-a0a9-9daf06f11add",
+          "source_id": "e43b656c-e354-4582-8467-f54d7a3fe553",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.0,
+              "chunking": 0.0,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 0.0,
+              "serialization": 0.0,
+              "nlp_model_load": 0.114
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 0,
+            "cache_hits": 0,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 0,
+            "unchanged": true
+          },
+          "elapsed_seconds": 0.007,
+          "mode": "unchanged",
+          "wall_seconds": 0.0084
+        }
+      ],
+      "peak_rss_mb": 165.02,
+      "python_peak_mb": 51.0,
+      "graph_read_ms": 16.564,
+      "json_serialization_ms": 0.45420799870043993,
+      "visible_nodes": 9,
+      "total_nodes": 9,
+      "extraction_quality": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relationship_recall": 1.0,
+        "predicted_entities": [
+          "embeddings",
+          "networkx",
+          "python",
+          "retrieval",
+          "sqlite"
+        ],
+        "note": "Synthetic sanity check, not a representative real-document accuracy evaluation"
+      },
+      "memory_scope": "Peak across cold, cached upload and unchanged retry in one isolated process"
+    },
+    {
+      "document": "small.pdf",
+      "content_hash": "bbd939532a702e0878af9fc225700641c7239e7a02bb0de5cc2f3d33cc793239",
+      "results": [
+        {
+          "id": "8a2805a0-7d49-458d-876e-0999a772bd7a",
+          "source_id": "925d1826-420c-44c4-a457-5bd8232feda7",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 75.777,
+              "chunking": 0.228,
+              "entity_extraction": 152.55,
+              "relationship_extraction": 5.012,
+              "embedding_generation": 0.0,
+              "graph_construction": 190.596,
+              "serialization": 1.198,
+              "nlp_model_load": 3392.744
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 3,
+            "cache_hits": 2,
+            "cache_misses": 1,
+            "new_concepts": 12,
+            "new_connections": 48,
+            "chunks": 3,
+            "indexed_chunks": 3,
+            "pages": 3,
+            "graph_target_chunks": 3,
+            "embedded_chunks": 0,
+            "document_cache_hit": false,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 4076.838
+          },
+          "elapsed_seconds": 4.084,
+          "mode": "cold",
+          "wall_seconds": 4.0883
+        },
+        {
+          "id": "7c900757-08a4-4b77-a3d3-79e0345f33a2",
+          "source_id": "c864b817-813c-4b28-a739-a765e4081225",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.063,
+              "chunking": 0.139,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 154.084,
+              "serialization": 0.0,
+              "nlp_model_load": 0.098
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 3,
+            "cache_hits": 3,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 48,
+            "chunks": 3,
+            "indexed_chunks": 3,
+            "pages": 3,
+            "graph_target_chunks": 3,
+            "embedded_chunks": 0,
+            "document_cache_hit": true,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 171.996
+          },
+          "elapsed_seconds": 0.18,
+          "mode": "cached_upload",
+          "wall_seconds": 0.1808
+        },
+        {
+          "id": "4ef68779-52c3-4576-9316-5942b819f23f",
+          "source_id": "c864b817-813c-4b28-a739-a765e4081225",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.0,
+              "chunking": 0.0,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 0.0,
+              "serialization": 0.0,
+              "nlp_model_load": 0.134
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 0,
+            "cache_hits": 0,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 0,
+            "unchanged": true
+          },
+          "elapsed_seconds": 0.005,
+          "mode": "unchanged",
+          "wall_seconds": 0.0056
+        }
+      ],
+      "peak_rss_mb": 129.84,
+      "python_peak_mb": 51.0,
+      "graph_read_ms": 15.169,
+      "json_serialization_ms": 0.4914170021947939,
+      "visible_nodes": 12,
+      "total_nodes": 12,
+      "extraction_quality": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relationship_recall": 1.0,
+        "predicted_entities": [
+          "embeddings",
+          "networkx",
+          "python",
+          "retrieval",
+          "sqlite"
+        ],
+        "note": "Synthetic sanity check, not a representative real-document accuracy evaluation"
+      },
+      "memory_scope": "Peak across cold, cached upload and unchanged retry in one isolated process"
+    },
+    {
+      "document": "medium.txt",
+      "content_hash": "1af6b520242cc67e0487b9a77433ca35fefb06c17d0f898b4523200fa17cb2f7",
+      "results": [
+        {
+          "id": "9e0a3aa8-cccb-42ca-b3f1-a986ff908564",
+          "source_id": "990fbd25-8496-4610-a217-2a1bd88a29fc",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 9.955,
+              "chunking": 1.507,
+              "entity_extraction": 1447.342,
+              "relationship_extraction": 43.337,
+              "embedding_generation": 0.0,
+              "graph_construction": 1507.641,
+              "serialization": 40.573,
+              "nlp_model_load": 3516.177
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 8,
+            "cache_hits": 0,
+            "cache_misses": 8,
+            "new_concepts": 13,
+            "new_connections": 76,
+            "chunks": 8,
+            "indexed_chunks": 8,
+            "pages": 1,
+            "graph_target_chunks": 8,
+            "embedded_chunks": 0,
+            "document_cache_hit": false,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 5300.524
+          },
+          "elapsed_seconds": 6.816,
+          "mode": "cold",
+          "wall_seconds": 6.8192
+        },
+        {
+          "id": "aac7f71f-48bd-4aab-abf1-566450f123a1",
+          "source_id": "2ce70b89-d2ca-4f82-a5c5-1262ce4164a5",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.072,
+              "chunking": 0.243,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 1158.835,
+              "serialization": 0.0,
+              "nlp_model_load": 0.154
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 8,
+            "cache_hits": 8,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 76,
+            "chunks": 8,
+            "indexed_chunks": 8,
+            "pages": 1,
+            "graph_target_chunks": 8,
+            "embedded_chunks": 0,
+            "document_cache_hit": true,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 698.133
+          },
+          "elapsed_seconds": 1.213,
+          "mode": "cached_upload",
+          "wall_seconds": 1.2134
+        },
+        {
+          "id": "83d2e7c2-73f4-460c-a4ee-c579f8337e71",
+          "source_id": "2ce70b89-d2ca-4f82-a5c5-1262ce4164a5",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.0,
+              "chunking": 0.0,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 0.0,
+              "serialization": 0.0,
+              "nlp_model_load": 0.101
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 0,
+            "cache_hits": 0,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 0,
+            "unchanged": true
+          },
+          "elapsed_seconds": 0.005,
+          "mode": "unchanged",
+          "wall_seconds": 0.0054
+        }
+      ],
+      "peak_rss_mb": 135.25,
+      "python_peak_mb": 51.02,
+      "graph_read_ms": 17.637,
+      "json_serialization_ms": 0.47487499978160486,
+      "visible_nodes": 13,
+      "total_nodes": 13,
+      "extraction_quality": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relationship_recall": 1.0,
+        "predicted_entities": [
+          "embeddings",
+          "networkx",
+          "python",
+          "retrieval",
+          "sqlite"
+        ],
+        "note": "Synthetic sanity check, not a representative real-document accuracy evaluation"
+      },
+      "memory_scope": "Peak across cold, cached upload and unchanged retry in one isolated process"
+    },
+    {
+      "document": "medium.docx",
+      "content_hash": "242486122fb06a6b4ea7107beff1253b779c710aefe56674c12e5ef54d9a9c8f",
+      "results": [
+        {
+          "id": "ec56326e-80e7-4495-9caa-42e0d7f5c028",
+          "source_id": "044a459a-20a7-4d74-bcfe-381fce087e59",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 122.073,
+              "chunking": 0.256,
+              "entity_extraction": 691.279,
+              "relationship_extraction": 27.645,
+              "embedding_generation": 0.0,
+              "graph_construction": 992.227,
+              "serialization": 31.541,
+              "nlp_model_load": 2003.081
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 8,
+            "cache_hits": 0,
+            "cache_misses": 8,
+            "new_concepts": 13,
+            "new_connections": 76,
+            "chunks": 8,
+            "indexed_chunks": 8,
+            "pages": 1,
+            "graph_target_chunks": 8,
+            "embedded_chunks": 0,
+            "document_cache_hit": false,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 2999.426
+          },
+          "elapsed_seconds": 3.955,
+          "mode": "cold",
+          "wall_seconds": 3.9563
+        },
+        {
+          "id": "81834061-8451-4e9b-aad5-090db60773a8",
+          "source_id": "f1a32520-a6fe-4005-9e87-45a36087be69",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.076,
+              "chunking": 0.237,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 940.52,
+              "serialization": 0.0,
+              "nlp_model_load": 0.102
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 8,
+            "cache_hits": 8,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 76,
+            "chunks": 8,
+            "indexed_chunks": 8,
+            "pages": 1,
+            "graph_target_chunks": 8,
+            "embedded_chunks": 0,
+            "document_cache_hit": true,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 502.989
+          },
+          "elapsed_seconds": 0.993,
+          "mode": "cached_upload",
+          "wall_seconds": 0.9941
+        },
+        {
+          "id": "de544454-189a-4281-9119-6a1d672dd514",
+          "source_id": "f1a32520-a6fe-4005-9e87-45a36087be69",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.0,
+              "chunking": 0.0,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 0.0,
+              "serialization": 0.0,
+              "nlp_model_load": 0.094
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 0,
+            "cache_hits": 0,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 0,
+            "unchanged": true
+          },
+          "elapsed_seconds": 0.005,
+          "mode": "unchanged",
+          "wall_seconds": 0.005
+        }
+      ],
+      "peak_rss_mb": 164.77,
+      "python_peak_mb": 51.01,
+      "graph_read_ms": 15.282,
+      "json_serialization_ms": 0.49595900054555386,
+      "visible_nodes": 13,
+      "total_nodes": 13,
+      "extraction_quality": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relationship_recall": 1.0,
+        "predicted_entities": [
+          "embeddings",
+          "networkx",
+          "python",
+          "retrieval",
+          "sqlite"
+        ],
+        "note": "Synthetic sanity check, not a representative real-document accuracy evaluation"
+      },
+      "memory_scope": "Peak across cold, cached upload and unchanged retry in one isolated process"
+    },
+    {
+      "document": "medium.pdf",
+      "content_hash": "2ebfc6fbdb6cf93dcff801e7259c76fd0b3dc5f1b839485706b2f9bee743584a",
+      "results": [
+        {
+          "id": "4ecb9ffe-e4ec-463f-b376-68d2c7c81230",
+          "source_id": "762f147c-3f62-4fbc-88ac-9f51a2b569fa",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 60.633,
+              "chunking": 0.455,
+              "entity_extraction": 33.987,
+              "relationship_extraction": 1.287,
+              "embedding_generation": 0.0,
+              "graph_construction": 1274.138,
+              "serialization": 1.372,
+              "nlp_model_load": 1941.079
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 30,
+            "cache_hits": 29,
+            "cache_misses": 1,
+            "new_concepts": 12,
+            "new_connections": 480,
+            "chunks": 30,
+            "indexed_chunks": 30,
+            "pages": 30,
+            "graph_target_chunks": 30,
+            "embedded_chunks": 0,
+            "document_cache_hit": false,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 2292.124
+          },
+          "elapsed_seconds": 3.46,
+          "mode": "cold",
+          "wall_seconds": 3.4615
+        },
+        {
+          "id": "c0c1ee8c-0e3e-488d-b775-f0547374863a",
+          "source_id": "29649169-cde1-4c88-963f-3008b237cf9e",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.279,
+              "chunking": 0.408,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 1074.032,
+              "serialization": 0.0,
+              "nlp_model_load": 0.125
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 30,
+            "cache_hits": 30,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 480,
+            "chunks": 30,
+            "indexed_chunks": 30,
+            "pages": 30,
+            "graph_target_chunks": 30,
+            "embedded_chunks": 0,
+            "document_cache_hit": true,
+            "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+            "initial_graph_ms": 166.491
+          },
+          "elapsed_seconds": 1.152,
+          "mode": "cached_upload",
+          "wall_seconds": 1.1529
+        },
+        {
+          "id": "10d90bb8-212e-4733-8036-6cc31efd9d7a",
+          "source_id": "29649169-cde1-4c88-963f-3008b237cf9e",
+          "stage": "completed",
+          "error": null,
+          "summary": {
+            "timings_ms": {
+              "document_parsing": 0.0,
+              "chunking": 0.0,
+              "entity_extraction": 0.0,
+              "relationship_extraction": 0.0,
+              "embedding_generation": 0.0,
+              "graph_construction": 0.0,
+              "serialization": 0.0,
+              "nlp_model_load": 0.1
+            },
+            "embedding_status": "disabled",
+            "graph_chunks": 0,
+            "cache_hits": 0,
+            "cache_misses": 0,
+            "new_concepts": 0,
+            "new_connections": 0,
+            "unchanged": true
+          },
+          "elapsed_seconds": 0.004,
+          "mode": "unchanged",
+          "wall_seconds": 0.005
+        }
+      ],
+      "peak_rss_mb": 165.2,
+      "python_peak_mb": 51.01,
+      "graph_read_ms": 16.099,
+      "json_serialization_ms": 0.49766699885367416,
+      "visible_nodes": 12,
+      "total_nodes": 12,
+      "extraction_quality": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relationship_recall": 1.0,
+        "predicted_entities": [
+          "embeddings",
+          "networkx",
+          "python",
+          "retrieval",
+          "sqlite"
+        ],
+        "note": "Synthetic sanity check, not a representative real-document accuracy evaluation"
+      },
+      "memory_scope": "Peak across cold, cached upload and unchanged retry in one isolated process"
+    }
+  ],
+  "comparisons": [
+    {
+      "document": "small.txt",
+      "before": null,
+      "after_seconds": 3.7212,
+      "speedup": null,
+      "note": "Speedup requires a completed baseline for the identical file. In-progress observations are not comparable benchmarks."
+    },
+    {
+      "document": "small.docx",
+      "before": null,
+      "after_seconds": 2.2538,
+      "speedup": null,
+      "note": "Speedup requires a completed baseline for the identical file. In-progress observations are not comparable benchmarks."
+    },
+    {
+      "document": "small.pdf",
+      "before": null,
+      "after_seconds": 4.0883,
+      "speedup": null,
+      "note": "Speedup requires a completed baseline for the identical file. In-progress observations are not comparable benchmarks."
+    },
+    {
+      "document": "medium.txt",
+      "before": null,
+      "after_seconds": 6.8192,
+      "speedup": null,
+      "note": "Speedup requires a completed baseline for the identical file. In-progress observations are not comparable benchmarks."
+    },
+    {
+      "document": "medium.docx",
+      "before": null,
+      "after_seconds": 3.9563,
+      "speedup": null,
+      "note": "Speedup requires a completed baseline for the identical file. In-progress observations are not comparable benchmarks."
+    },
+    {
+      "document": "medium.pdf",
+      "before": null,
+      "after_seconds": 3.4615,
+      "speedup": null,
+      "note": "Speedup requires a completed baseline for the identical file. In-progress observations are not comparable benchmarks."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "0a6860af-e0ba-46c6-b42d-f70726a3fc36",
+  "source_id": "441da2e8-373d-4f68-9ac7-acb8759bea30",
+  "stage": "completed",
+  "error": null,
+  "summary": {
+    "timings_ms": {
+      "document_parsing": 287.625,
+      "chunking": 0.291,
+      "entity_extraction": 6053.455,
+      "relationship_extraction": 13.744,
+      "embedding_generation": 0.0,
+      "graph_construction": 1393.027,
+      "serialization": 19.079,
+      "nlp_model_load": 366.308
+    },
+    "embedding_status": "disabled",
+    "graph_chunks": 88,
+    "cache_hits": 0,
+    "cache_misses": 88,
+    "new_concepts": 1421,
+    "new_connections": 2750,
+    "chunks": 88,
+    "indexed_chunks": 88,
+    "pages": 64,
+    "graph_target_chunks": 88,
+    "embedded_chunks": 0,
+    "document_cache_hit": false,
+    "entity_engine": "pipeline-v4.1-local-nlp:en_core_web_sm-3.8.0",
+    "initial_graph_ms": 1169.829
+  },
+  "elapsed_seconds": 9.043
+}
