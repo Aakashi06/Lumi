@@ -1,6 +1,5 @@
-# Verification — 9 October 2026
+# Verification
 
-The user authorized setup and verification after the earlier manual-only request.
 
 - All dependencies and the small English spaCy model installed.
 - `LUMI_REAL_MODELS=1 LUMI_PERFORMANCE=1 backend/.venv/bin/python -m pytest -q`: **44 passed**, including the real local Qwen cited-answer workflow, latency/memory tests, fallback extraction, and document-scoped graphs.
